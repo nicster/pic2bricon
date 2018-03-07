@@ -1,13 +1,8 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]
 *$py.class
 
-# C extensions
-*.so
-
 # Distribution / packaging
-.Python
 env/
 build/
 develop-eggs/
@@ -15,7 +10,6 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
 lib64/
 parts/
 sdist/
@@ -99,3 +93,26 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# User-specific stuff:
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
+
+# Sensitive or high-churn files:
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+*.jpg
+
+# Gradle:
+.idea/**/gradle.xml
+.idea/**/libraries
+
+Intelli J
+.idea/vcs.xml
+.idea/misc.xml
+out/
